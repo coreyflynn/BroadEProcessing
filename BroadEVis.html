@@ -13,8 +13,8 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
     <link href="css/impress-demo.css" rel="stylesheet" />
     
-    <link rel="shortcut icon" href="img/hive_single.png" />
-    <link rel="apple-touch-icon" href="img/hive_single.png" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 </head>
 
 <body class="impress-not-supported">
@@ -64,15 +64,10 @@
 
     <!-- what we are going to build -->
     <div class="step" data-x="2500" data-y="-1500" data-z="-1000" data-scale="1">
-        <p>Initial Brain Storm</p>
-        <img src="img/hive_white_board.png">
-    </div>
-
-    <div class="step" data-x="3500" data-y="-1500" data-z="-1000" data-scale="1">
         <p>Vis Prototypes</p>
-        <img src="img/hive_prototypes.png">
+        <img src="img/white_board.png">
+        <img src="img/hive_concepts.png">
     </div>
-    
 
     <!-- full image -->
     <div class="step" data-x="2500" data-y="500" data-scale="3" data-rotate="45">
@@ -103,6 +98,11 @@
         <img src="img/hive_single_outline.png">
     </div>
 
+    <!-- reminder of th image to build -->
+    <div class="step" data-x="2500" data-y="500" data-scale="3" data-rotate="45">
+        <img src="img/hive_single.png">
+    </div>
+
 	<!-- how do we build a circle in processing -->
 	<div class="step" data-x="300" data-y="2500" data-scale="4" data-rotate="90">
 		<p style="font-size: 100px">ellipse(50,50,50,50);</p>
@@ -122,12 +122,12 @@
 	</div>
 
 	<!-- other usefull processing commands -->
-	<div class="step" data-x="4500" data-y="-800" data-z="-1000" data-scale=".5">
+	<div class="step" data-x="3500" data-y="-2200" data-z="-1000" data-scale=".5">
 		<p style="font-size: 100px">size(x,y)</p>
 		<iframe width="750px" height="600" src="http://processing.org/reference/size_.html"></iframe>
 	</div>
 
-	<div class="step" data-x="5000" data-y="-800" data-z="-1000" data-scale=".5">
+	<div class="step" data-x="4000" data-y="-2200" data-z="-1000" data-scale=".5">
 		<p style="font-size: 100px">background(R,G,B);</p>
 		<iframe width="750px" height="600" src="http://processing.org/reference/background_.html"></iframe>
 	</div>
@@ -150,23 +150,17 @@
 	<div class="step" data-x="5700" data-y="1000" data-z="-1000" data-scale=".5">
 		<p style="font-size: 100px">noStroke();</p>
 		<iframe width="750px" height="600" src="http://processing.org/reference/noStroke_.html"></iframe>
-	</div>	
+	</div>
 
-	<!-- Lets build it! -->
-    <div class="step" data-x="4500" data-y="2000">
-    	<p style="width:1000; text-align:center">OK, Let's write some code!</p>
-    	<p style="height: 100px">  </p>
-    	<p style="width:1000; font-size:30px; text-align:center">Or just <a href="https://github.com/coreyflynn/BroadEProcessing">download the code</a></p>
-    </div>
-
-	<!-- who am I -->
-    <div class="step" data-x="5500" data-y="2000">
+	<div class="step" data-x="-1000" data-y="-500">
+        <p> About Me</p>
+        <p style="height: 100px">  </p>
         <p style="width:1000; text-align:center"> Corey Flynn</p>
-        <p style="width:1000; text-align:center"><a href="mailto:cflynn@broadinstitute.org" style="width:1000; text-align:center"> cflynn@broadinstitute.org</a></p>
-        <p style="width:1000; font-size:30px; text-align:center"> Bioinformatics Scientist II</p>
-        <p style="width:1000; font-size:30px; text-align:center"> Connectivity Map,Golub Lab</p>
-	    <p style="width:1000; font-size:30px; text-align:center"> Cancer Program</p>
+        <p style="width:1000; text-align:center"> Bioinformatics Scientist II</p>
+        <p style="width:1000; text-align:center"> Connectivity Map</p>
+        <p style="width:1000; text-align:center"> Golub Lab, Cancer Program</p>
     </div>
+
 
     <!-- show the full layout -->
     <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
